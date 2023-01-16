@@ -363,6 +363,7 @@ button:hover {
   .navbar {
       flex-direction: column;
       align-items: flex-start;
+      width: 100vw;
   }
 
   .toggle-button {
@@ -400,8 +401,8 @@ button:hover {
       margin-left: 1vw;
   }
   .all_recommendations{
-      margin-left: 7vw;
-  }
+    margin-left: 0vw;
+    }
   .recommendation{
       font-size: 15px;
   }
