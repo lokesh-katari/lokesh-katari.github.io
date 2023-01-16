@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>LokeshKatari - Portfolio</title>
-    <link rel="stylesheet" href="./style.css" />
-    <script src="./script.js"></script>
-  </head>
-  <body>
-    <!-- Navigation Bar -->
-    <nav>
-      <div id="home">
+    <head>
+      <link rel="stylesheet" href="background_styles.css">
+      <link rel="stylesheet" href="style.css">
+      <script src="script.js" defer></script>
+      <title>LokeshKatari-Portfolio</title>
+    </head>
+    <body>
+      <nav class="navbar" id="home">
         <div class="profile_name">
           Katari Lokeswara rao
           <div class="contact_info">
@@ -26,17 +25,24 @@
             />
             +91 9985461700
           </div>
-        </div>
-        <div class="topdiv">
-          <a class="topmenu" href="#about-me">About Me</a>
-          <a class="topmenu" href="#skills">Skills</a>
-          <a class="topmenu" href="#projects">Projects</a>
-          <a class="topmenu" href="#recommendations">Recommendations</a>
-          <!-- Add the links for Skills, Projects and Recommendation here -->
-        </div>
-      </div>
-    </nav>
 
+        </div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links" >
+          <ul>
+            <li><a class="topmenu" href="#about-me">About Me</a></li>
+        <li><a class="topmenu" href="#skills">Skills</a></li>
+        <li> <a class="topmenu" href="#projects">Projects</a></li>
+        <li><a class="topmenu" href="#recommendations">Recommendations</a></li>
+      
+          </ul>
+        </div>
+      </nav>
+      
     <!-- About Me -->
     <section id="about-me" class="container">
       <div>
@@ -206,5 +212,5 @@
       <h3><!-- Add appropriate text here-->Thanks for leaving arecommendation</h3>
       <button onclick="showPopup(false)">Ok</button>
     </div>
-  </body>
+    </body>
 </html>
