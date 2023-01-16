@@ -419,4 +419,7 @@ button:hover {
       margin-left: 26px;
       margin-top: -8px;
   }
+  #recommendations h2{
+    font-size: 2.5em
+  }
 }
