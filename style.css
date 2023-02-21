@@ -12,7 +12,7 @@ body {
   position: relative;
   justify-content: space-between;
   align-items: center;
-  background-color: #7600bc;
+  background-color: #380d51;
   color: white;
 }
 
@@ -91,7 +91,7 @@ h2 {
   font-size: 50px;
   text-align: center;
   float: left;
-  color: #7600bc;
+  color: #480e6a;
   margin: 30px;
   margin-left: 60px;
   margin-top: 40px;
@@ -339,8 +339,8 @@ fieldset {
 
 button {
   background-color: #fff;
-  border: 1px solid #7600bc;
-  color: #7600bc;
+  border: 1px solid #3a1350;
+  color: #2f0c44;
   display: block;
   border-radius: 6px;
   text-align: center;
